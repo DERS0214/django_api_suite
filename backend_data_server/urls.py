@@ -23,4 +23,5 @@ urlpatterns = [
     path("homepage/", include("homepage.urls")),
     path('', include('homepage.urls')),  # Ruta vacía enlazada a la app homepage
     path('demo/rest/api/', include('demo_rest_api.urls')),
+    path('landing/api/', include('landing_api.urls')),
 ]
