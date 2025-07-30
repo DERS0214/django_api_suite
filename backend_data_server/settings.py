@@ -30,7 +30,7 @@ SECRET_KEY = "django-insecure-z1k_*nusi1kp8-&yeeb*n12$g7=%x8d!@-(0wu(vlce(o*4mjw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['scadrami.pythonanywhere.com']
 
 
 # Application definition
@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "homepage",
     "demo_rest_api",
     "landing_api",
+    "hola_que_hace",
 ]
 
 MIDDLEWARE = [
@@ -124,7 +125,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "assets/"
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, STATIC_URL),
