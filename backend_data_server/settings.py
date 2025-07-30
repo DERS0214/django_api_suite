@@ -47,7 +47,6 @@ INSTALLED_APPS = [
     "homepage",
     "demo_rest_api",
     "landing_api",
-    "hola_que_hace",
 ]
 
 MIDDLEWARE = [
